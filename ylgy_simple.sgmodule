@@ -1,5 +1,6 @@
-#!name=羊了个羊简单第二关
+#!name=羊了个羊-快速通关
 #!author=zmlu
+#!desc=羊了个羊把第二关难度改为第一关
 
 [URL Rewrite]
 ^(https://cat-match.easygame2021.com/sheep/v1/game/map_info\?map_id=).*(?<!80001)$ https://cat-match.easygame2021.com/sheep/v1/game/map_info?map_id=80001 header
