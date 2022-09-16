@@ -1,0 +1,8 @@
+#!name=羊了个羊简单第二关
+#!author=zmlu
+
+[URL Rewrite]
+^(https://cat-match.easygame2021.com/sheep/v1/game/map_info\?map_id=).*(?<!80001)$ https://cat-match.easygame2021.com/sheep/v1/game/map_info?map_id=80001 header
+
+[MITM]
+hostname = %APPEND% cat-match.easygame2021.com
