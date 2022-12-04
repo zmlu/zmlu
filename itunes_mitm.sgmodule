@@ -1,0 +1,10 @@
+#!name=🍿️ Apple iTunes MitM
+#!desc=Apple iTunes MitM
+#!openUrl=http://boxjs.com/#/app/DualSubs
+#!author=VirgilClyne
+#!homepage=https://github.com/VirgilClyne
+#!manual=https://github.com/DualSubs/DualSubs
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png
+
+[MITM]
+hostname = %APPEND% play.itunes.apple.com
